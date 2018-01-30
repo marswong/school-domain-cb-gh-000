@@ -15,6 +15,6 @@ class School
   end
 
   def sort
-    puts @roster.sort.Class
+    puts @roster.sort.class
   end
 end
