@@ -15,6 +15,10 @@ class School
   end
 
   def sort
-    puts @roster.sort
+    result = {}
+    @roster.each do |k, v|
+      result[k] = v.sort      
+    end
+    result
   end
 end
